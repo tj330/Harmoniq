@@ -18,7 +18,7 @@ export default function Piano() {
       <>
         <Container>
           <h2>Piano</h2>
-          <div className='piano'>
+          <div className='piano mt-5'>
             
           <div className='white-key' id="C4" onClick={() => {
             play("C4")
